@@ -57,6 +57,13 @@ public class User implements Bank {
         System.out.println("and your account number is "+accountNo);
     }
 
+    public void showProfile() {
+        System.out.println("Hello ,"+getName());
+        System.out.println("Your account number is : "+getAccountNo());
+        System.out.println("Your contact is : "+getPhone());
+        System.out.println("You have balance of "+balance+" in your account.");
+    }
+
     // Withdrawal
 
     @Override
