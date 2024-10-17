@@ -11,6 +11,7 @@ interface Bank {
     // Profile creation section
     void createProfile();
     void updateProfile();
+    void showProfile();
 
     // Withdraw
     void withdraw();
